@@ -6,6 +6,7 @@ const hitung = () => {
   
   let hasil = "";
 
+  // Fungsi membuat sistem kalkulator 
   if (sistem === "biner") {
     hasil = parseInt(angka1, 2) + parseInt(angka2, 2);
   } else if (sistem === "desimal") {
