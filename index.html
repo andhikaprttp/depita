@@ -36,6 +36,22 @@
         placeholder="Masukan bilangan kedua"
       />
     </div>
+           <label class="block mb-2">Sistem Bilangan:</label>
+                <select id="system" class="border border-gray-300 p-2 w-full rounded">
+                    <option value="binary">Biner</option>
+                    <option value="decimal">Desimal</option>
+                    <option value="hexadecimal">Heksadesimal</option>
+                </select>
+            </div>
+        </div>
+        <div class="mt-4">
+            <button id="calculate" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Hitung</button>
+        </div>
+        <div class="mt-4">
+            <label class="block mb-2">Hasil:</label>
+            <input id="result" type="text" class="border border-gray-300 p-2 w-full rounded" readonly>
+        </div>
+    </div>
     <div></div>
   </body>
 </html>
