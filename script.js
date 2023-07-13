@@ -9,6 +9,6 @@ const hitung = () => {
     } else if (sistem === 'desimal') {
       hasil = parseInt(angka1, 10) + parseInt(angka2, 10);
     } else if (sistem === 'hexadesimal') {
-      hasil = parseInt(angka1, 10) + parseInt(angka2, 10);
+      hasil = parseInt(angka1, 16) + parseInt(angka2, 16);
     }
 };
