@@ -11,4 +11,7 @@ const hitung = () => {
     } else if (sistem === 'hexadesimal') {
       hasil = (parseInt(angka1, 16) + parseInt(angka2, 16)).toString(16);
     }
+    
+    document.getElementById('hasil').value = hasil; 
+    
 };
